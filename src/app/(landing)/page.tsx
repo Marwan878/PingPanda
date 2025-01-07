@@ -11,7 +11,7 @@ import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism"
 import { Icons } from "@/components/icons"
 
 const Page = () => {
-  const codeSnippet = `await fetch("https://extraordinary-platypus-efc01f.netlify.app/api/v1/events", {
+  const codeSnippet = `await fetch("https://ping-panda-1.netlify.app/api/v1/events", {
     method: "POST",
     body: JSON.stringify({
       category: "sale",

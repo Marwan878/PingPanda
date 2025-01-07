@@ -79,9 +79,6 @@ export const POST = async (req: NextRequest) => {
 
     const discord = new DiscordClient(process.env.DISCORD_BOT_TOKEN)
     const dmChannel = await discord.createDM(user.discordId)
-    // await discord.sendEmbed(dmChannel.id, {
-    //   title: "Hello world!!",
-    // })
 
     let requestData: unknown
 

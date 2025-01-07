@@ -14,7 +14,7 @@ const getBaseUrl = () => {
     ? "http://localhost:3000/"
     : process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
-    : "https://extraordinary-platypus-efc01f.netlify.app/"
+    : "https://ping-panda-1.netlify.app/"
 }
 
 export const baseClient = hc<AppType>(getBaseUrl(), {
